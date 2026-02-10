@@ -5,7 +5,7 @@
     "categoria": "Historia y Cultura",
     "imagen": "/turismobalancan/assets/img/atractivos/zona-arqueologica.jpeg",
     "descripcion": "Vestigios históricos que muestran el pasado prehispánico de la región.",
-    "url": "/turismobalancan/pages/zona_arqueologica.html"
+    "url": "https://becasbalancan.github.io/turismobalancan/pages/zona_arqueologica.html"
   },
   {
     "id": 2,
@@ -24,4 +24,5 @@
     "url": "/pages/malecon.html"
   }
 ]
+
 
