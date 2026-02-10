@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zona Arqueológica",
+    "categoria": "Historia y Cultura",
+    "imagen": "assets/img/atractivos/zona-arqueologica.jpeg",
+    "descripcion": "Vestigios históricos que muestran el pasado prehispánico de la región.",
+    "url": "/pages/zona_arqueologica.html"
+  },
+  {
+    "id": 2,
+    "nombre": "Cascada Las Golondrinas",
+    "categoria": "Naturaleza y Aventura",
+    "imagen": "assets/img/atractivos/cascada.jpeg",
+    "descripcion": "Hermosa cascada rodeada de vegetación, ideal para el ecoturismo.",
+    "url": "/pages/cascada.html"
+  },
+  {
+    "id": 3,
+    "nombre": "Malecón del Río",
+    "categoria": "Paisajes y Recreación",
+    "imagen": "assets/img/atractivos/malecon.jpeg",
+    "descripcion": "Espacio para caminar y disfrutar de los paisajes del río Usumacinta.",
+    "url": "/pages/malecon.html"
+  }
+]
