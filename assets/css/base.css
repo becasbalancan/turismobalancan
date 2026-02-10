@@ -1,1 +1,21 @@
+body {
+    font-family: var(--font-texto);
+    background-color: var(--color-beige);
+    color: var(--color-negro);
+    margin: 0;
+}
 
+h1, h2, h3 {
+    font-family: var(--font-titulo);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
