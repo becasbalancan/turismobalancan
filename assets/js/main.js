@@ -1,3 +1,8 @@
+/* =========================
+   CONFIGURACIÓN GLOBAL
+========================= */
+const ROOT = "/turismobalancan/";
+
 function cargarComponente(id, ruta) {
     fetch(ruta)
         .then(res => {
@@ -14,11 +19,9 @@ function cargarComponente(id, ruta) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const basePath = "/turismobalancan/components/";
-
-    cargarComponente("header", basePath + "header.html");
-    cargarComponente("sidebar", basePath + "sidebar.html");
-    cargarComponente("footer", basePath + "footer.html");
+    cargarComponente("header", ROOT + "components/header.html");
+    cargarComponente("sidebar", ROOT + "components/sidebar.html");
+    cargarComponente("footer", ROOT + "components/footer.html");
 
     if (typeof cargarAtractivos === "function") {
         cargarAtractivos();
@@ -36,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 5000);
     }
 });
+
 
 
 
