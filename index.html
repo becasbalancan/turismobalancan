@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Balancán</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div id="header"></div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main-container">
+
+        <!-- SIDEBAR -->
+        <aside id="sidebar"></aside>
+
+        <!-- CONTENIDO -->
+        <section class="content">
+
+            <!-- HERO -->
+            <section class="hero">
+
+                <!-- SLIDES -->
+                <div class="hero-slider">
+                    <div class="slide active" style="background-image: url('assets/img/hero/hero-balancan.jpeg');"></div>
+                    <div class="slide" style="background-image: url('assets/img/hero/hero1.jpeg');"></div>
+                    <div class="slide" style="background-image: url('assets/img/hero/hero2.jpeg');"></div>
+                    <div class="slide" style="background-image: url('assets/img/hero/hero3.jpeg');"></div>
+                </div>
+
+                <!-- CONTENIDO
+                <div class="hero-content">
+                    
+                    
+                    <button>Conoce más</button>
+                </div>-->
+
+            </section>
+
+
+            <!-- DESTACADO -->
+            <section class="destacado">
+                <h3>Iglesia Señor de Tila</h3>
+                <p>
+                    La iglesia Señor de Tila es una emblemática iglesia situada
+                    en el centro de Balancán, reconocida por su arquitectura
+                    colonial y su importancia religiosa.
+                </p>
+
+                <ul>
+                    <li><strong>📍 Ubicación:</strong> Centro de Balancán</li>
+                    <li><strong>📅 Día de Fiesta:</strong> 15 de enero</li>
+                </ul>
+            </section>
+
+            <!-- LUGARES -->
+            <section class="lugares">
+                <h3>Lugares para visitar</h3>
+
+                <div class="lugares-grid" id="lugares-container">
+                <!-- Cards cargadas desde JSON -->
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+   <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
