@@ -6,7 +6,7 @@ function cargarComponente(id, ruta) {
         });
 }
 
-const basePath = window.location.pathname.includes("/pages/")
+const basePath = window.location.pathname.includes("/turismobalancan//pages/")
     ? "../components/"
     : "components/";
 
@@ -26,4 +26,5 @@ setInterval(() => {
     currentSlide = (currentSlide + 1) % slides.length;
 
     slides[currentSlide].classList.add("active");
+
 }, 5000); // cambia cada 5 segundos
