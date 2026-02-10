@@ -1,0 +1,27 @@
+@media (max-width: 900px) {
+
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar ul {
+        display: none;
+    }
+
+    .hero {
+        padding: 2rem 1.5rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+}

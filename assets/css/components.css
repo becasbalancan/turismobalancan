@@ -1,0 +1,293 @@
+/* =========================
+   NAVBAR / HEADER
+========================= */
+
+.logo-img {
+    height: 56px;
+    width: auto;
+    display: block;
+}
+
+.navbar ul li {
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li:hover {
+    background-color: var(--color-dorado);
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .item {
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.sidebar .item:hover {
+    background-color: var(--color-verde-claro);
+    transform: translateX(5px);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    box-shadow: var(--sombra-card);
+    position: relative;
+    min-height: 60vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+.hero-zona {
+    background-image: url("/assets/img/hero/zona-arqueologica.jpeg");
+}
+
+
+/* Contenedor de slides */
+.hero-slider {
+    position: absolute;
+    inset: 0;
+}
+
+/* Slide individual */
+.slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+/* Slide activo */
+.slide.active {
+    opacity: 1;
+}
+
+/* Overlay oscuro */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/* Contenido del hero */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 2rem;
+    max-width: 700px;
+}
+
+.hero button:hover {
+    background-color: #b18c3f;
+}
+
+
+/* =========================
+   SECCIÓN DESTACADA
+========================= */
+
+.destacado h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--color-verde-oscuro);
+}
+
+.destacado ul {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.destacado li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* =========================
+   INFORMACION
+========================= */
+
+.info-section {
+    margin-top: 3rem;
+    max-width: 800px;
+}
+
+.info-section h3 {
+    margin-bottom: 1rem;
+    color: var(--color-verde);
+}
+
+.info-section p {
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+
+/* =========================
+   LUGARES / CARDS
+========================= */
+
+.lugares {
+    margin-top: 3rem;
+}
+
+.lugares h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-negro);
+}
+
+.lugares-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-lugar {
+    background-color: var(--color-beige);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.card-lugar:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.card-lugar img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+}
+
+.card-lugar h4 {
+    margin-top: 1rem;
+    font-family: var(--font-titulo);
+    padding: 0.75rem 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card-lugar p {
+    margin-top: 0.5rem;
+    padding: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 3rem 2rem 1.5rem;
+    font-size: 0.95rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.footer h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer p {
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.6rem;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Redes sociales */
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 0.8rem;
+}
+
+/* Logo */
+.footer-logo {
+    text-align: right;
+}
+
+.footer-logo img {
+    max-width: 220px;
+}
+
+/* Línea */
+.footer hr {
+    border: none;
+    border-top: 1px solid #666;
+    margin: 2rem 0 1.5rem;
+}
+
+/* Parte inferior */
+.footer-bottom {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+}

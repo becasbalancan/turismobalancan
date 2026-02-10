@@ -1,0 +1,24 @@
+:root {
+    /* 🎨 Colores institucionales */
+    --color-verde-oscuro: #1f3d2b;
+    --color-verde: #2f6b3f;
+    --color-verde-claro: #4f8f5e;
+    --color-header: #118C8A;
+
+    --color-dorado: #c9a24d;
+    --color-beige: #f5ecd7;
+
+    --color-blanco: #ffffff;
+    --color-negro: #1a1a1a;
+
+    /* 🖋️ Tipografías */
+    --font-titulo: 'Playfair Display', serif;
+    --font-texto: 'Montserrat', sans-serif;
+
+    /* 📐 Medidas */
+    --max-width: 1920px;
+    --radius: 12px;
+
+    /* 🌫️ Sombras */
+    --sombra-card: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
