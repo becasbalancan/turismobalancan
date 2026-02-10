@@ -7,8 +7,8 @@ function cargarComponente(id, ruta) {
 }
 
 const basePath = window.location.pathname.includes("/pages/")
-    ? "../components/"
-    : "components/";
+    ? "/turismobalancan/components/"
+    : "/turismobalancan/components/";
 
 document.addEventListener("DOMContentLoaded", () => {
     cargarComponente("header", basePath + "header.html");
@@ -28,5 +28,6 @@ setInterval(() => {
     slides[currentSlide].classList.add("active");
 
 }, 5000); // cambia cada 5 segundos
+
 
 
