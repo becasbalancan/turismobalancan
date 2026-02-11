@@ -19,9 +19,9 @@
     "id": 3,
     "nombre": "Malecón del Río",
     "categoria": "Paisajes y Recreación",
-    "imagen": "assets/img/atractivos/malecon.jpeg",
+    "imagen": "/turismobalancan/assets/img/atractivos/malecon.jpeg",
     "descripcion": "Espacio para caminar y disfrutar de los paisajes del río Usumacinta.",
-    "url": "/pages/malecon.html"
+    "url": "/turismobalancan/pages/malecon.html"
   }
 ]
 

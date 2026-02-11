@@ -70,6 +70,10 @@
     background-image: url("/turismobalancan/assets/img/hero/cascadas.jpeg");
 }
 
+.hero-malecon {
+    background-image: url("/turismobalancan/assets/img/hero/malecon.jpeg");
+}
+
 /* Contenedor de slides */
 .hero-slider {
     position: absolute;
