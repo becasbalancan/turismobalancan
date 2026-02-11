@@ -141,3 +141,9 @@ header {
     margin-top: 2rem;
     box-shadow: var(--sombra-card);
 }
+
+.content {
+    width: 100%;
+    min-width: 0;
+}
+
