@@ -1,4 +1,5 @@
-body {
+html, body {
+    overflow-x: hidden;
     font-family: var(--font-texto);
     background-color: var(--color-beige);
     color: var(--color-negro);
@@ -15,7 +16,8 @@ a {
     color: inherit;
 }
 
-img {
+img, iframe {
     max-width: 100%;
+    height:auto;
     display: block;
 }
