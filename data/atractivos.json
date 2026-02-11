@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "nombre": "Cascada Las Golondrinas",
+    "nombre": "Cascadas de Reforma",
     "categoria": "Naturaleza y Aventura",
-    "imagen": "assets/img/atractivos/cascada.jpeg",
+    "imagen": "/turismobalancan/assets/img/atractivos/cascada.jpeg",
     "descripcion": "Hermosa cascada rodeada de vegetación, ideal para el ecoturismo.",
-    "url": "/pages/cascada.html"
+    "url": "/turismobalancan/pages/cascadas.html"
   },
   {
     "id": 3,

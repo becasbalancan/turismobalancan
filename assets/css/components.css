@@ -66,6 +66,9 @@
     background-image: url("/turismobalancan/assets/img/hero/zona-arqueologica.jpeg");
 }
 
+.hero-cascada {
+    background-image: url("/turismobalancan/assets/img/hero/cascadas.jpeg");
+}
 
 /* Contenedor de slides */
 .hero-slider {
