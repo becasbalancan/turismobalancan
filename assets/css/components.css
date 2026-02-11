@@ -2,10 +2,21 @@
    NAVBAR / HEADER
 ========================= */
 
+.logo a {
+    display: inline-block
+}
+
 .logo-img {
     height: 70px;
     width: auto;
     display: block;
+    cursor: pointer;
+    transition: transform 0.25s ease, opacity 0.25 ease;;
+}
+
+.logo-img:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
 }
 
 .navbar ul li {
